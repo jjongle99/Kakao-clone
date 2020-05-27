@@ -1,0 +1,92 @@
+.more__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.more__header .more__header__column {
+  display: flex;
+  align-items: center;
+}
+
+.more__header .more__header__column .g-avatar {
+  height: 70px;
+  width: 70px;
+  border-radius: 25px;
+}
+
+.friend__name {
+  font-weight: 700;
+}
+
+.friend__email {
+  color: #c6c6c6;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.more__header .more__header__column .more__header__icon i {
+  font-size: 30px;
+}
+
+.more__header__list__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px 25px;
+  padding-right: 200px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.more__header__list__btn .more__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more__header__list__btn .more__btn .header__btn__icon {
+  font-size: 32px;
+}
+
+.more__header__list__btn .more__btn .header__btn__text {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.more__suggestions {
+  padding-top: 25px;
+}
+
+.more__suggestions h5 {
+  font-size: 18px;
+}
+.more__suggestions__list {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 270px;
+}
+
+.more__suggestions__list .more__suggestions__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more__suggestions__btn .more__icon {
+  font-size: 25px;
+  padding-bottom: 15px;
+  background-color: #fce006;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.more__suggestions__btn .more__btn__text {
+  opacity: 0.8;
+  padding-top: 15px;
+  font-size: 15px;
+}

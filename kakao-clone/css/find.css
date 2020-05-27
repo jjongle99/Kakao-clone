@@ -1,0 +1,50 @@
+.find__header .find__header__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #f2f2f2f8;
+}
+
+.find__header .find__header__list .header__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__btn__icon {
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.find .find__title {
+  padding-top: 15px;
+  color: #888888;
+  left: 100px;
+  font-size: 12px;
+}
+
+.find__list .friend {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px 10px;
+}
+
+.find__list .friend .friend__column .Jigglypuff {
+  background-color: palevioletred;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.find__list .friend .friend__column .friend__content span {
+  font-weight: 500;
+}
+
+.find__list .friend .friend__column .friend__add-btn {
+  background-color: #eaeaea;
+  padding: 15px 18px;
+  border-radius: 10px;
+  text-align: center;
+}

@@ -1,0 +1,81 @@
+.friends__friend {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend__column {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 10px 0px 30px;
+}
+
+.friend__column .lucky {
+  background-color: darksalmon;
+}
+
+.friend__column .g-avatar {
+  height: 70px;
+  width: 70px;
+  border-radius: 25px;
+}
+
+.friend__column .friend__avatar {
+  height: 45px;
+  width: 45px;
+  border-radius: 30%;
+}
+
+.friend__column .friend__music {
+  border: 2px solid #5bd67f;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.friend__column .friend__music div {
+  opacity: 0.7;
+}
+
+.friend__column .friend__music i {
+  font-size: 12px;
+}
+
+.friend__content {
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.friend__content .friend__name {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 4px;
+}
+
+.friend__content .friend__my-name {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.friend__content .friend__status {
+  color: #c2c2c2;
+  font-size: 13px;
+}
+
+.friends__title {
+  color: #8d8d8d;
+}
+
+.friends .friends__plus {
+  padding-top: 10px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.friends .friends__list {
+  padding-top: 30px;
+}

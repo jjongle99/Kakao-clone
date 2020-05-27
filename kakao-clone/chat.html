@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat | Kakao Clone</title>
+    <script
+      src="https://kit.fontawesome.com/bffacb67e7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/css.css" />
+  </head>
+
+  <body class="chats-body">
+    <div class="header-wrapper">
+      <div class="status-bar chat-status-bar">
+        <div class="status-bar__column">
+          <span>13:54</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span>100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+
+      <header class="header chat-header">
+        <div class="header__column">
+          <span class="header__icon__arrow">
+            <a href="index.html">
+              <i class="fas fa-arrow-left"></i>
+            </a>
+          </span>
+          <span class="header__title">오구</span>
+        </div>
+        <div class="header__column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
+    </div>
+
+    <main class="chat chat__main">
+      <section class="chat__chat">
+        <ul class="chat__list">
+          <div class="chat__datebox">
+            <span class="chat__date">Friday, January 11, 2019</span>
+          </div>
+          <li class="chat__list__friend-chat message">
+            <img
+              class="message__avatar g-avatar"
+              src="images/ogu.jpg"
+              width="300px"
+              height="300px"
+              alt=""
+            />
+            <div class="chat__content">
+              <div class="friend-chat__message-box">배고파</div>
+              <span class="friend-chat__friend-name">
+                오구
+              </span>
+            </div>
+          </li>
+          <li class="chat__list__my-chat message">
+            <div class="chat__content">
+              <span class="my-chat_message-box">
+                밥먹자!
+              </span>
+            </div>
+          </li>
+          <li class="chat__list__friend-chat message">
+            <img
+              class="message__avatar g-avatar"
+              src="images/ogu.jpg"
+              width="300px"
+              height="300px"
+              alt=""
+            />
+            <div class="chat__content">
+              <div class="friend-chat__message-box">
+                오구오구
+              </div>
+              <span class="friend-chat__friend-name">
+                오구
+              </span>
+            </div>
+          </li>
+          <li class="chat__list__my-chat message">
+            <div class="chat__content">
+              <span class="my-chat_message-box">
+                뭐 먹지?
+              </span>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <div class="chat__write--container">
+      <input
+        type="text"
+        class="chat__write chat__write-input"
+        placeholder="Send message"
+      />
+      <div class="chat__icon-left chat__icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+
+      <div class="chat__icon-right chat__icon">
+        <span class="chat__write-icon">
+          <i class="far fa-smile"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!😱</span>
+    </div>
+  </body>
+</html>

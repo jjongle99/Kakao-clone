@@ -1,0 +1,105 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700&display=swap");
+@import "status-bar.css";
+@import "header.css";
+@import "nav.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "setting.css";
+@import "chat.css";
+@import "mobile.css";
+
+body {
+  padding: 0px 15px;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.chat {
+  padding-bottom: 30px;
+}
+
+.chat a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat a .chats__column {
+  display: flex;
+}
+
+.chats__column {
+  display: flex;
+  position: relative;
+}
+
+.chats__column img {
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+}
+
+.chats__column .chat__content {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.chats__column .chat__content .chat__name {
+  font-size: 20px;
+}
+
+.chats__column .chat__content .chat__status {
+  color: #a7aab1;
+}
+
+.chats__column .timestamp {
+  color: #a7aab1;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+
+.chats__column .chats-number {
+  background-color: #dc5d46;
+  border-radius: 100%;
+  color: white;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+}
+
+.pikachu {
+  background-color: orange;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+main {
+  animation: fadeIn 0.5s ease-in-out;
+}
